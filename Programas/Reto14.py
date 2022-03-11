@@ -3,4 +3,5 @@
 # data: 11/03/2022
 
 for x in range(1,101):
-    print(x)
+    if(x % 2 == 0 and x % 3 == 0):
+        print(x)
